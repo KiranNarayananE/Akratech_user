@@ -124,7 +124,7 @@ function App(): React.FC {
                 </Button>
               </Grid>
               {data.map((item) => (
-                <Grid item key={item.id} xs={12} sm={6} md={4}>
+                <Grid item key={item.id} xs={12} sm={6} md={4}  >
                   <Cards data={item} deleteUser={deleteUser} />
                 </Grid>
               ))}

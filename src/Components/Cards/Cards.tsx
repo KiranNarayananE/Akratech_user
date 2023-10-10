@@ -13,7 +13,7 @@ interface props {
 
 const Cards: React.FC<props> = ({ data, deleteUser }) => {
   return (
-    <Card sx={{ maxWidth: 300 }}>
+    <Card sx={{ maxWidth: 300,mx: { xs: 'auto' } }}>
       <CardActionArea>
         <CardMedia
           component="img"
